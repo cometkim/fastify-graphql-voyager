@@ -27,7 +27,7 @@
   },
   "scripts": {
     "prepack": "yarn build",
-    "build": "nanobundle build --platform node --no-sourcemap"
+    "build": "nanobundle build --platform node --no-sourcemap --clean"
   },
   "files": [
     "lib"
