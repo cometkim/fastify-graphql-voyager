@@ -1,0 +1,50 @@
+{
+  "name": "fastify-graphql-voyager",
+  "version": "0.1.0",
+  "description": "Fastify plugin to expose GraphQL Voyager",
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "hey@hyeseong.kim"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cometkim/fastify-graphql-voyager.git"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "graphql"
+  ],
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "nanobundle build --platform node --no-sourcemap"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "fastify": "^4.0.0",
+    "graphql": "^14.0.0 || ^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "fastify": "^4.11.0",
+    "graphql": "^16.6.0",
+    "nanobundle": "^1.2.2",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "yarn@3.3.1"
+}
