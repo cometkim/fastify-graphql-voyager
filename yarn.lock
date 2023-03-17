@@ -338,17 +338,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.21.4":
-  version: 4.21.4
-  resolution: "browserslist@npm:4.21.4"
+"browserslist@npm:^4.21.5":
+  version: 4.21.5
+  resolution: "browserslist@npm:4.21.5"
   dependencies:
-    caniuse-lite: ^1.0.30001400
-    electron-to-chromium: ^1.4.251
-    node-releases: ^2.0.6
-    update-browserslist-db: ^1.0.9
+    caniuse-lite: ^1.0.30001449
+    electron-to-chromium: ^1.4.284
+    node-releases: ^2.0.8
+    update-browserslist-db: ^1.0.10
   bin:
     browserslist: cli.js
-  checksum: 4af3793704dbb4615bcd29059ab472344dc7961c8680aa6c4bb84f05340e14038d06a5aead58724eae69455b8fade8b8c69f1638016e87e5578969d74c078b79
+  checksum: 9755986b22e73a6a1497fd8797aedd88e04270be33ce66ed5d85a1c8a798292a65e222b0f251bafa1c2522261e237d73b08b58689d4920a607e5a53d56dc4706
   languageName: node
   linkType: hard
 
@@ -381,10 +381,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001445
-  resolution: "caniuse-lite@npm:1.0.30001445"
-  checksum: f98ca67829c3c52af5af0a62b8510432b2ad9594437d24ad460a6eb1a23d93e7a31631b1f550fbbe482ad05c467aa00da710a41699eb13d1f246d7db4147ab79
+"caniuse-lite@npm:^1.0.30001449":
+  version: 1.0.30001467
+  resolution: "caniuse-lite@npm:1.0.30001467"
+  checksum: c7df36ddb8050fb366a4bedd278f4b639c1dde94b6ba62bacf960f26d488395632a0630b7932ebc52d3d04b57940d12dcb4a7d3bb744ff64c249b61fb3e0c238
   languageName: node
   linkType: hard
 
@@ -458,10 +458,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.251":
-  version: 1.4.284
-  resolution: "electron-to-chromium@npm:1.4.284"
-  checksum: be496e9dca6509dbdbb54dc32146fc99f8eb716d28a7ee8ccd3eba0066561df36fc51418d8bd7cf5a5891810bf56c0def3418e74248f51ea4a843d423603d10a
+"electron-to-chromium@npm:^1.4.284":
+  version: 1.4.332
+  resolution: "electron-to-chromium@npm:1.4.332"
+  checksum: d65870e47b41dce95ca246ddd27179539de1af34a2f79cdb892b70c8bd6c2ed751aeb937bffd1fbd22e1d63b5c6bf4ce67430f208e6970a51c81e98e0beea1f4
   languageName: node
   linkType: hard
 
@@ -956,34 +956,34 @@ __metadata:
   linkType: hard
 
 "nanobundle@npm:^1.2.2":
-  version: 1.5.1
-  resolution: "nanobundle@npm:1.5.1"
+  version: 1.6.0
+  resolution: "nanobundle@npm:1.6.0"
   dependencies:
     "@cometjs/core": ^2.1.0
-    browserslist: ^4.21.4
+    browserslist: ^4.21.5
     esbuild: ^0.17.3
     kleur: ^4.1.5
     meow: ^11.0.0
     pretty-bytes: ^6.0.0
     semver: ^7.3.8
     string-dedent: ^3.0.1
-    tsconfck: ^2.0.2
+    tsconfck: ^2.1.0
     xstate: ^4.35.0
   peerDependencies:
-    typescript: ^3.7.0 || ^4.0.0
+    typescript: ^3.7.0 || ^4.0.0 || ^5.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
   bin:
     nanobundle: bin.min.mjs
-  checksum: 4238ba2a776d0cb70e6b0a432f9958535d9f1619928d5c52dc19c3c4c57bdd062ae87a338a0aa5d8e2bafb1dba31130c67d1e5aefda2122b97fcffc7212626a5
+  checksum: 017f2de7804a1b14523bcac107615a74491d5436f1a4ee1d25706b0b458bf20caafe48df12bd668f59277a3de98f48d1dee57ad52c8b6331a6b70550d0e1f8b6
   languageName: node
   linkType: hard
 
-"node-releases@npm:^2.0.6":
-  version: 2.0.8
-  resolution: "node-releases@npm:2.0.8"
-  checksum: b1ab02c0d5d8e081bf9537232777a7a787dc8fef07f70feabe70a344599b220fe16462f746ac30f3eed5a58549445ad69368964d12a1f8b3b764f6caab7ba34a
+"node-releases@npm:^2.0.8":
+  version: 2.0.10
+  resolution: "node-releases@npm:2.0.10"
+  checksum: d784ecde25696a15d449c4433077f5cce620ed30a1656c4abf31282bfc691a70d9618bae6868d247a67914d1be5cc4fde22f65a05f4398cdfb92e0fc83cadfbc
   languageName: node
   linkType: hard
 
@@ -1371,7 +1371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfck@npm:^2.0.1, tsconfck@npm:^2.0.2":
+"tsconfck@npm:^2.0.1":
   version: 2.0.2
   resolution: "tsconfck@npm:2.0.2"
   peerDependencies:
@@ -1382,6 +1382,20 @@ __metadata:
   bin:
     tsconfck: bin/tsconfck.js
   checksum: bc914042b2f5e1f9d7bbadd05b74031f32e2f1757061743d70d86d17dda0734d838e67abb0105b81db67c30b66496e5d408cbe216bb43b3d567a181b0448ddc1
+  languageName: node
+  linkType: hard
+
+"tsconfck@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "tsconfck@npm:2.1.0"
+  peerDependencies:
+    typescript: ^4.3.5 || ^5.0.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  bin:
+    tsconfck: bin/tsconfck.js
+  checksum: e40e9dce2438fd2b0cf9f27732046028cea34e4e29e28b5de49815d723e46a0d1ac175d3a520e3fc140cb0b70b5fb61fdbfdf849df8f693288e744386c317f11
   languageName: node
   linkType: hard
 
@@ -1419,7 +1433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"update-browserslist-db@npm:^1.0.9":
+"update-browserslist-db@npm:^1.0.10":
   version: 1.0.10
   resolution: "update-browserslist-db@npm:1.0.10"
   dependencies:
