@@ -653,9 +653,9 @@ __metadata:
   linkType: soft
 
 "fastify-plugin@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "fastify-plugin@npm:4.5.0"
-  checksum: 3cc36a43ec72ee9974d3cd1989027e77b277b0994e4fc02ed4e6492aabd83a0be66f14fdec56e60d9a41911ea1ff1ea70c9d957a87e46bcdb8fedd859f4988fe
+  version: 4.5.1
+  resolution: "fastify-plugin@npm:4.5.1"
+  checksum: ddd1b2d470c3acd9397c2617b5842dcf71a6f9a32f05d02be1c12e8d37b8fc03af656900cec38e2afef5e9a3dfe5f994317810f4c5e9960b127b1ca179b56f73
   languageName: node
   linkType: hard
 
