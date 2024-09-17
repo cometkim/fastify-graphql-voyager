@@ -642,7 +642,7 @@ __metadata:
   resolution: "fastify-graphql-voyager@workspace:."
   dependencies:
     fastify: ^4.11.0
-    fastify-plugin: ^4.5.0
+    fastify-plugin: ^5.0.0
     graphql: ^16.6.0
     nanobundle: ^1.2.2
     typescript: ^5.0.0
@@ -652,10 +652,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"fastify-plugin@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "fastify-plugin@npm:4.5.0"
-  checksum: 3cc36a43ec72ee9974d3cd1989027e77b277b0994e4fc02ed4e6492aabd83a0be66f14fdec56e60d9a41911ea1ff1ea70c9d957a87e46bcdb8fedd859f4988fe
+"fastify-plugin@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "fastify-plugin@npm:5.0.0"
+  checksum: d973069d9380c4ff2bf82eaa36206b4935ea79a9fcbcb75b37d58293abbbeabe187a501bdfb6e9817d6e9833e7b7f540c1e7656619adc07fea14fc33745281f6
   languageName: node
   linkType: hard
 
