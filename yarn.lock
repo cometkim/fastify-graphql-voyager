@@ -643,12 +643,12 @@ __metadata:
   dependencies:
     fastify: ^4.11.0
     fastify-plugin: ^4.5.0
-    graphql: ^16.6.0
+    graphql: ^17.0.0
     nanobundle: ^1.2.2
     typescript: ^5.0.0
   peerDependencies:
     fastify: ^4.0.0
-    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
   languageName: unknown
   linkType: soft
 
@@ -726,10 +726,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.6.0":
-  version: 16.6.0
-  resolution: "graphql@npm:16.6.0"
-  checksum: bf1d9e3c1938ce3c1a81e909bd3ead1ae4707c577f91cff1ca2eca474bfbc7873d5d7b942e1e9777ff5a8304421dba57a4b76d7a29eb19de8711cb70e3c2415e
+"graphql@npm:^17.0.0":
+  version: 17.0.2
+  resolution: "graphql@npm:17.0.2"
+  checksum: 4520cdb805a7c0211a45cbed28c0f10bbbd412ed97011a00808872a1abb7167b09d400f065a261b9c85c03ec131ba856910d918de844bb48299dc8b1f08b7805
   languageName: node
   linkType: hard
 
